@@ -1,0 +1,13 @@
+﻿  Game.cpp
+E:\C++\Projects\GameEngine\GameEngine\GameEngine\TextureHandler.h(63,21): warning C4018: '<': signed/unsigned mismatch
+E:\C++\Projects\GameEngine\GameEngine\GameEngine\ModelHandler.h(79,21): warning C4018: '<': signed/unsigned mismatch
+E:\C++\Projects\GameEngine\GameEngine\GameEngine\Particle.h(78,74): warning C4305: 'argument': truncation from 'double' to 'float'
+E:\C++\Projects\GameEngine\GameEngine\GameEngine\AIAlgorithms.h(42,30): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+E:\OpenGL\Glad\include\glad\glad.h(32): message : see previous definition of 'APIENTRY'
+E:\C++\Projects\GameEngine\GameEngine\GameEngine\Game.cpp(545,20): warning C4018: '<': signed/unsigned mismatch
+E:\C++\Projects\GameEngine\GameEngine\GameEngine\Game.cpp(662,14): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/PROFILE' specification
+AIEngine.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:REF' specification
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  GameEngine.vcxproj -> E:\C++\Projects\GameEngine\GameEngine\Debug\GameEngine.exe

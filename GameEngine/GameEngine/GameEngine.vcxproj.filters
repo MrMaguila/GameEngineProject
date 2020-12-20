@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{5011edc4-816b-49ca-9308-0629281666b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{45512a7c-7789-4844-ad99-9a5ddc6afce7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GraphicsEngine">
+      <UniqueIdentifier>{067a5afc-46b1-4c67-a160-4b672b738204}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GraphicsEngine">
+      <UniqueIdentifier>{ac5f856f-b559-4c09-a0fb-26cf407e92a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PhysicsEngine">
+      <UniqueIdentifier>{70cc0832-b55b-460c-a70c-f82be3f2a9f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PhysicsEngine">
+      <UniqueIdentifier>{5f1900ea-f890-41ad-bfa5-3f646332711a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AudioEngine">
+      <UniqueIdentifier>{486424f1-2d9b-43a3-876b-ad2369849563}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AudioEngine">
+      <UniqueIdentifier>{69f2d01f-bb02-4a38-b93b-a3e46dcc3d0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AIEngine">
+      <UniqueIdentifier>{6c8fa311-0fc1-47c7-8cba-bfa47591c286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AIEngine">
+      <UniqueIdentifier>{ce4234c2-a157-458a-be1e-cce1b8f44b60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\WindowHandler">
+      <UniqueIdentifier>{aff2f11d-2f08-40ca-9b70-dff4f10e7102}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\MainCode">
+      <UniqueIdentifier>{0cbfa616-5c60-41aa-95cc-b37bffb8487a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\WindowHandler">
+      <UniqueIdentifier>{9ef4f619-0f4e-4cfb-abfe-8d36ce6bb5c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\MainCode">
+      <UniqueIdentifier>{4db0b54a-b8b5-415d-8ced-a7aa75edfea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\MemManager">
+      <UniqueIdentifier>{3fcbf2f8-1f63-44dc-8aa5-d4a9adf15cf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\MemManager">
+      <UniqueIdentifier>{81444da8-1f29-4e5c-93c6-0713ac483c93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\InputHandler">
+      <UniqueIdentifier>{d8209299-7fbc-498f-9f34-d1a48fbf14d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\InputHandler">
+      <UniqueIdentifier>{b17104c8-ab5c-4a26-b113-f107a0d6b53a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Gameplay">
+      <UniqueIdentifier>{c8167733-33ec-48d8-b4d3-90b4d98625fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Gameplay">
+      <UniqueIdentifier>{342d2734-0d53-4ff9-b998-4bc5c6794273}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Networking">
+      <UniqueIdentifier>{98b3510f-6642-4cf8-aa2c-a8bb70b03eeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Networking">
+      <UniqueIdentifier>{d7c3986d-2728-4f36-9792-3d43a05e9d30}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files\Core\WindowHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Core\MainCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Core\MainCode</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureHandler.cpp">
+      <Filter>Source Files\Core\MemManager</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Source Files\Core\MemManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\Core\MainCode</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Source Files\Core\MainCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\Core\MemManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Source Files\GraphicsEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicalSystem.cpp">
+      <Filter>Source Files\GraphicsEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageComponent.cpp">
+      <Filter>Source Files\GraphicsEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformComponent.cpp">
+      <Filter>Source Files\Core\MainCode</Filter>
+    </ClCompile>
+    <ClCompile Include="LightComponent.cpp">
+      <Filter>Source Files\GraphicsEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsEngine.cpp">
+      <Filter>Source Files\PhysicsEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicalComponents.cpp">
+      <Filter>Source Files\PhysicsEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Observer.cpp">
+      <Filter>Source Files\Core\MainCode</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHandling.cpp">
+      <Filter>Source Files\InputHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="GameplayHandler.cpp">
+      <Filter>Source Files\Core\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterComponent.cpp">
+      <Filter>Source Files\Core\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="HudHandling.cpp">
+      <Filter>Source Files\Core\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="AIEngine.cpp">
+      <Filter>Source Files\AIEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkHandler.cpp">
+      <Filter>Source Files\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelHandler.cpp">
+      <Filter>Source Files\Core\MemManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelComponent.cpp">
+      <Filter>Source Files\GraphicsEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="InteractableObjectComponent.cpp">
+      <Filter>Source Files\Core\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>Source Files\PhysicsEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Source Files\PhysicsEngine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="window.h">
+      <Filter>Header Files\Core\WindowHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\Core\MainCode</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files\Core\MemManager</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureHandler.h">
+      <Filter>Header Files\Core\MemManager</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Header Files\Core\MainCode</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\Core\MainCode</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageComponent.h">
+      <Filter>Header Files\GraphicsEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files\Core\MemManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Header Files\GraphicsEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicalSystem.h">
+      <Filter>Header Files\GraphicsEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Header Files\GraphicsEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformComponent.h">
+      <Filter>Header Files\Core\MainCode</Filter>
+    </ClInclude>
+    <ClInclude Include="LightComponent.h">
+      <Filter>Header Files\GraphicsEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsEngine.h">
+      <Filter>Header Files\PhysicsEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicalComponents.h">
+      <Filter>Header Files\PhysicsEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionHandling.h">
+      <Filter>Header Files\PhysicsEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>Header Files\Core\MainCode</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHandling.h">
+      <Filter>Header Files\InputHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterComponent.h">
+      <Filter>Header Files\Core\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="GameplayHandler.h">
+      <Filter>Header Files\Core\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="hudHandling.h">
+      <Filter>Header Files\Core\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="AIEngine.h">
+      <Filter>Header Files\AIEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="AIAlgorithms.h">
+      <Filter>Header Files\AIEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectPool.h">
+      <Filter>Header Files\Core\MemManager</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkHandler.h">
+      <Filter>Header Files\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelComponent.h">
+      <Filter>Header Files\GraphicsEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelHandler.h">
+      <Filter>Header Files\Core\MemManager</Filter>
+    </ClInclude>
+    <ClInclude Include="InteractableObjectComponent.h">
+      <Filter>Header Files\Core\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalDefines.h">
+      <Filter>Header Files\Core\MainCode</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>Header Files\PhysicsEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Header Files\PhysicsEngine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
