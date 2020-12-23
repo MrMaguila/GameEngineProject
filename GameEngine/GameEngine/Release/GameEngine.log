@@ -1,27 +1,6 @@
-﻿  Particle.cpp
-E:\C++\Projects\GameEngine\GameEngine\GameEngine\Particle.h(78,74): warning C4305: 'argument': truncation from 'double' to 'float'
-E:\OpenGL\glm\glm\detail\type_vec4.inl(583,106): warning C4244: 'argument': conversion from 'U' to 'T', possible loss of data
-          with
-          [
-              U=double
-          ]
-          and
-          [
-              T=float
-          ]
-E:\C++\Projects\GameEngine\GameEngine\GameEngine\Particle.cpp(61): message : see reference to function template instantiation 'glm::vec<4,float,glm::packed_highp> &glm::vec<4,float,glm::packed_highp>::operator *=<double>(U)' being compiled
-          with
-          [
-              U=double
-          ]
-E:\C++\Projects\GameEngine\GameEngine\GameEngine\Particle.cpp(61): message : see reference to function template instantiation 'glm::vec<4,float,glm::packed_highp> &glm::vec<4,float,glm::packed_highp>::operator *=<double>(U)' being compiled
-          with
-          [
-              U=double
-          ]
-  Generating code
-  8 of 3179 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
-    1 functions were new in current compilation
-    22 functions had inline decision re-evaluated but remain unchanged
+﻿  Generating code
+  0 of 3179 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  GameEngine.vcxproj -> E:\C++\Projects\GameEngine\GameEngine\Release\GameEngine.exe
+  GameEngine.vcxproj -> E:\GitRepositories\SelfMadeGameEngine\GameEngine\Release\GameEngine.exe
