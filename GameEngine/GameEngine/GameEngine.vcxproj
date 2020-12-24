@@ -49,13 +49,13 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>E:\OpenGL\glm;E:\OpenGL\Glad\include;E:\OpenGL\glfw-3.3.2.bin.WIN32\include;E:\C++\assimp\include;E:\C++\assimp\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\glm;$(SolutionDir)Dependencies\Glad\include;$(SolutionDir)Dependencies\glfw-3.3.2.bin.WIN32\include;$(SolutionDir)Dependencies\assimp\include;$(SolutionDir)Dependencies\assimp\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
-      <AdditionalLibraryDirectories>E:\OpenGL\glfw-3.3.2.bin.WIN32\lib-vc2019;E:\C++\assimp\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Dependencies\glfw-3.3.2.bin.WIN32\lib-vc2019;$(SolutionDir)\Dependencies\assimp\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>assimp-vc142-mtd.lib;glfw3.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <Profile>true</Profile>
     </Link>

@@ -1,13 +1,535 @@
-﻿  Game.cpp
-E:\C++\Projects\GameEngine\GameEngine\GameEngine\TextureHandler.h(63,21): warning C4018: '<': signed/unsigned mismatch
-E:\C++\Projects\GameEngine\GameEngine\GameEngine\ModelHandler.h(79,21): warning C4018: '<': signed/unsigned mismatch
-E:\C++\Projects\GameEngine\GameEngine\GameEngine\Particle.h(78,74): warning C4305: 'argument': truncation from 'double' to 'float'
-E:\C++\Projects\GameEngine\GameEngine\GameEngine\AIAlgorithms.h(42,30): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+﻿  AIEngine.cpp
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\AIAlgorithms.h(42,30): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\Particle.h(78,74): warning C4305: 'argument': truncation from 'double' to 'float'
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(92,20): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(91): message : while compiling class template member function 'T &ObjectPool<T>::operator [](int) noexcept'
+          with
+          [
+              T=CharacterComponent
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\AIEngine.cpp(51): message : see reference to function template instantiation 'T &ObjectPool<T>::operator [](int) noexcept' being compiled
+          with
+          [
+              T=CharacterComponent
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\World.h(99): message : see reference to class template instantiation 'ObjectPool<CharacterComponent>' being compiled
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(100,19): warning C4018: '<=': signed/unsigned mismatch
+  CharacterComponent.cpp
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\CharacterComponent.cpp(34,20): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\CharacterComponent.cpp(123,27): warning C4018: '>=': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\CharacterComponent.cpp(200,20): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\CharacterComponent.cpp(232,101): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\CharacterComponent.cpp(244,41): warning C4018: '<=': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\CharacterComponent.cpp(508,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Entity.cpp
+  Game.cpp
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\TextureHandler.h(63,21): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ModelHandler.h(79,21): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\Particle.h(78,74): warning C4305: 'argument': truncation from 'double' to 'float'
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\AIAlgorithms.h(42,30): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
-E:\OpenGL\Glad\include\glad\glad.h(32): message : see previous definition of 'APIENTRY'
-E:\C++\Projects\GameEngine\GameEngine\GameEngine\Game.cpp(545,20): warning C4018: '<': signed/unsigned mismatch
-E:\C++\Projects\GameEngine\GameEngine\GameEngine\Game.cpp(662,14): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\Dependencies\Glad\include\glad\glad.h(32): message : see previous definition of 'APIENTRY'
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\Game.cpp(545,20): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\Game.cpp(662,14): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  GameplayHandler.cpp
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\Particle.h(78,74): warning C4305: 'argument': truncation from 'double' to 'float'
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\TextureHandler.h(63,21): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GameplayHandler.cpp(78,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GameplayHandler.cpp(150,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GameplayHandler.cpp(151,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GameplayHandler.cpp(409,96): warning C4390: ';': empty controlled statement found; is this the intent?
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GameplayHandler.cpp(849,17): warning C4018: '>=': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GameplayHandler.cpp(872,31): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GameplayHandler.cpp(1003,32): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(92,20): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(91): message : while compiling class template member function 'T &ObjectPool<T>::operator [](int) noexcept'
+          with
+          [
+              T=CharacterComponent
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GameplayHandler.cpp(83): message : see reference to function template instantiation 'T &ObjectPool<T>::operator [](int) noexcept' being compiled
+          with
+          [
+              T=CharacterComponent
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\World.h(99): message : see reference to class template instantiation 'ObjectPool<CharacterComponent>' being compiled
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(100,19): warning C4018: '<=': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(149,20): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(141): message : while compiling class template member function 'void ObjectPool<CharacterComponent>::push_back(const T &) noexcept'
+          with
+          [
+              T=CharacterComponent
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GameplayHandler.cpp(215): message : see reference to function template instantiation 'void ObjectPool<CharacterComponent>::push_back(const T &) noexcept' being compiled
+          with
+          [
+              T=CharacterComponent
+          ]
+  GraphicalSystem.cpp
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\Particle.h(78,74): warning C4305: 'argument': truncation from 'double' to 'float'
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\TextureHandler.h(63,21): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(309,82): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(309,61): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(319,83): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(319,62): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(329,83): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(329,62): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(339,82): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(339,61): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(353,92): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(353,71): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(653,82): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(653,61): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(665,82): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(665,61): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(681,92): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(681,71): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(716,83): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(716,62): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(726,92): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(726,71): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(747,90): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(747,65): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(774,83): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(774,62): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(832,46): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(832,32): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(1018,20): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(1189,61): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(1189,36): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(1251,34): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(1227,12): warning C4101: 'lightProj': unreferenced local variable
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(1192,12): warning C4101: 'viewAndProj': unreferenced local variable
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(1294,57): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(1294,36): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(1372,34): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(1395,64): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(1395,39): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(1432,57): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(1432,36): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(1478,45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(1478,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(1509,59): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(1509,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(1582,57): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(1582,36): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(1662,57): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(1662,36): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(1750,57): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(1750,36): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(1847,38): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(1863,81): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(1863,60): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(1893,20): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(1925,57): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(1925,36): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(2217,41): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(2228,21): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(2424,21): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(2595,21): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(2866,21): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(2975,21): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(3090,21): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(92,20): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(91): message : while compiling class template member function 'T &ObjectPool<T>::operator [](int) noexcept'
+          with
+          [
+              T=TransformComponent
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(1156): message : see reference to function template instantiation 'T &ObjectPool<T>::operator [](int) noexcept' being compiled
+          with
+          [
+              T=TransformComponent
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\World.h(93): message : see reference to class template instantiation 'ObjectPool<TransformComponent>' being compiled
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(100,19): warning C4018: '<=': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(149,20): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(141): message : while compiling class template member function 'void ObjectPool<ImageComponent>::push_back(const T &) noexcept'
+          with
+          [
+              T=ImageComponent
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\GraphicalSystem.cpp(904): message : see reference to function template instantiation 'void ObjectPool<ImageComponent>::push_back(const T &) noexcept' being compiled
+          with
+          [
+              T=ImageComponent
+          ]
+  HudHandling.cpp
+  ImageComponent.cpp
+  InputHandling.cpp
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\Particle.h(78,74): warning C4305: 'argument': truncation from 'double' to 'float'
+  InteractableObjectComponent.cpp
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\InteractableObjectComponent.cpp(41,55): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\InteractableObjectComponent.cpp(41,41): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\InteractableObjectComponent.cpp(41,27): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\InteractableObjectComponent.cpp(47,21): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\InteractableObjectComponent.cpp(95,21): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\InteractableObjectComponent.cpp(132,41): warning C4018: '<=': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\InteractableObjectComponent.cpp(161,27): warning C4018: '>=': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\InteractableObjectComponent.cpp(237,20): warning C4018: '<': signed/unsigned mismatch
+  LightComponent.cpp
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\LightComponent.cpp(79,35): warning C4390: ';': empty controlled statement found; is this the intent?
+  main.cpp
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\TextureHandler.h(63,21): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ModelHandler.h(79,21): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\Particle.h(78,74): warning C4305: 'argument': truncation from 'double' to 'float'
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\AIAlgorithms.h(42,30): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\Dependencies\Glad\include\glad\glad.h(32): message : see previous definition of 'APIENTRY'
+  ModelComponent.cpp
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ModelComponent.cpp(81,20): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ModelComponent.cpp(102,20): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ModelComponent.cpp(146,20): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ModelComponent.cpp(190,20): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ModelComponent.cpp(230,20): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ModelComponent.cpp(233,61): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ModelComponent.cpp(236,55): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ModelComponent.cpp(244,21): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ModelComponent.cpp(256,22): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ModelComponent.cpp(258,76): warning C4244: '=': conversion from 'double' to '_Ty1', possible loss of data
+          with
+          [
+              _Ty1=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ModelComponent.cpp(268,22): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ModelComponent.cpp(271,6): warning C4244: '=': conversion from 'double' to '_Ty1', possible loss of data
+          with
+          [
+              _Ty1=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ModelComponent.cpp(283,22): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ModelComponent.cpp(285,74): warning C4244: '=': conversion from 'double' to '_Ty1', possible loss of data
+          with
+          [
+              _Ty1=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ModelComponent.cpp(333,21): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ModelComponent.cpp(391,20): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ModelComponent.cpp(408,20): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ModelComponent.cpp(471,20): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ModelComponent.cpp(561,20): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ModelComponent.cpp(596,20): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ModelComponent.cpp(813,20): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ModelComponent.cpp(832,21): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ModelComponent.cpp(854,27): warning C4018: '>=': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ModelComponent.cpp(934,20): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ModelComponent.cpp(1007,20): warning C4018: '<': signed/unsigned mismatch
+  ModelHandler.cpp
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ModelHandler.h(79,21): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ModelHandler.cpp(56,21): warning C4018: '<': signed/unsigned mismatch
+  NetworkHandler.cpp
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\Particle.h(78,74): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\Dependencies\Glad\include\glad\glad.h(32): message : see previous definition of 'APIENTRY'
+  Observer.cpp
+  Particle.cpp
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\Particle.h(78,74): warning C4305: 'argument': truncation from 'double' to 'float'
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\Dependencies\glm\glm\detail\type_vec4.inl(583,106): warning C4244: 'argument': conversion from 'U' to 'T', possible loss of data
+          with
+          [
+              U=double
+          ]
+          and
+          [
+              T=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\Particle.cpp(61): message : see reference to function template instantiation 'glm::vec<4,float,glm::packed_highp> &glm::vec<4,float,glm::packed_highp>::operator *=<double>(U)' being compiled
+          with
+          [
+              U=double
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\Particle.cpp(61): message : see reference to function template instantiation 'glm::vec<4,float,glm::packed_highp> &glm::vec<4,float,glm::packed_highp>::operator *=<double>(U)' being compiled
+          with
+          [
+              U=double
+          ]
+  ParticleSystem.cpp
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\Particle.h(78,74): warning C4305: 'argument': truncation from 'double' to 'float'
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ParticleSystem.cpp(64,98): warning C4244: 'argument': conversion from '_Rep' to 'unsigned int', possible loss of data
+          with
+          [
+              _Rep=std::chrono::system_clock::rep
+          ]
+  PhysicalComponents.cpp
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\PhysicalComponents.cpp(60,11): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\PhysicalComponents.cpp(191,45): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\PhysicalComponents.cpp(190): message : while compiling class template member function 'void RigidBodyComponent<Sphere>::setSize(glm::vec3) noexcept'
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\PhysicalComponents.cpp(223): message : see reference to class template instantiation 'RigidBodyComponent<Sphere>' being compiled
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\PhysicalComponents.cpp(191,34): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\PhysicalComponents.cpp(191,23): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+  PhysicsEngine.cpp
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\Particle.h(78,74): warning C4305: 'argument': truncation from 'double' to 'float'
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\PhysicsEngine.cpp(335,39): warning C4244: '=': conversion from 'Entity' to 'float', possible loss of data
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\PhysicsEngine.cpp(336,40): warning C4244: '=': conversion from 'Entity' to 'float', possible loss of data
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\PhysicsEngine.cpp(303,13): warning C4101: 'separVec': unreferenced local variable
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(92,20): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(91): message : while compiling class template member function 'T &ObjectPool<T>::operator [](int) noexcept'
+          with
+          [
+              T=TransformComponent
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\PhysicsEngine.cpp(168): message : see reference to function template instantiation 'T &ObjectPool<T>::operator [](int) noexcept' being compiled
+          with
+          [
+              T=TransformComponent
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\World.h(93): message : see reference to class template instantiation 'ObjectPool<TransformComponent>' being compiled
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(100,19): warning C4018: '<=': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(149,20): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(141): message : while compiling class template member function 'void ObjectPool<RigidBodyComponent<Sphere>>::push_back(const T &) noexcept'
+          with
+          [
+              T=RigidBodyComponent<Sphere>
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\PhysicsEngine.cpp(81): message : see reference to function template instantiation 'void ObjectPool<RigidBodyComponent<Sphere>>::push_back(const T &) noexcept' being compiled
+          with
+          [
+              T=RigidBodyComponent<Sphere>
+          ]
+  Generating Code...
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(111): warning C4715: 'ObjectPool<RigidBodyComponent<Sphere> >::operator[]': not all control paths return a value
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(111): warning C4715: 'ObjectPool<RigidBodyComponent<Box> >::operator[]': not all control paths return a value
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(111): warning C4715: 'ObjectPool<InteractableObjectComponent>::operator[]': not all control paths return a value
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(111): warning C4715: 'ObjectPool<TransformComponent>::operator[]': not all control paths return a value
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\HudHandling.cpp(35): warning C4715: 'Button::isPointInside': not all control paths return a value
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(111): warning C4715: 'ObjectPool<ImageComponent>::operator[]': not all control paths return a value
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(111): warning C4715: 'ObjectPool<TransformComponent>::operator[]': not all control paths return a value
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(111): warning C4715: 'ObjectPool<DirLightComponent>::operator[]': not all control paths return a value
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(111): warning C4715: 'ObjectPool<PointLightComponent>::operator[]': not all control paths return a value
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(111): warning C4715: 'ObjectPool<RigidBodyComponent<Box> >::operator[]': not all control paths return a value
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(111): warning C4715: 'ObjectPool<InteractableObjectComponent>::operator[]': not all control paths return a value
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(111): warning C4715: 'ObjectPool<ModelComponent>::operator[]': not all control paths return a value
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(111): warning C4715: 'ObjectPool<CharacterComponent>::operator[]': not all control paths return a value
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(111): warning C4715: 'ObjectPool<CharacterComponent>::operator[]': not all control paths return a value
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(111): warning C4715: 'ObjectPool<InteractableObjectComponent>::operator[]': not all control paths return a value
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(111): warning C4715: 'ObjectPool<CharacterComponent>::operator[]': not all control paths return a value
+  Compiling...
+  Sprite.cpp
+  stb_image.cpp
+  Texture.cpp
+  TextureHandler.cpp
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\TextureHandler.h(63,21): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\TextureHandler.cpp(52,15): warning C4018: '>=': signed/unsigned mismatch
+  TransformComponent.cpp
+  World.cpp
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\Particle.h(78,74): warning C4305: 'argument': truncation from 'double' to 'float'
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(92,20): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(91): message : while compiling class template member function 'T &ObjectPool<T>::operator [](int) noexcept'
+          with
+          [
+              T=TransformComponent
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\World.cpp(92): message : see reference to function template instantiation 'T &ObjectPool<T>::operator [](int) noexcept' being compiled
+          with
+          [
+              T=TransformComponent
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\World.h(93): message : see reference to class template instantiation 'ObjectPool<TransformComponent>' being compiled
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(100,19): warning C4018: '<=': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(149,20): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(141): message : while compiling class template member function 'void ObjectPool<TransformComponent>::push_back(const T &) noexcept'
+          with
+          [
+              T=TransformComponent
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\World.cpp(75): message : see reference to function template instantiation 'void ObjectPool<TransformComponent>::push_back(const T &) noexcept' being compiled
+          with
+          [
+              T=TransformComponent
+          ]
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(166,20): warning C4018: '<': signed/unsigned mismatch
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(165): message : while compiling class template member function 'void ObjectPool<TransformComponent>::erase(int) noexcept'
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\World.cpp(92): message : see reference to function template instantiation 'void ObjectPool<TransformComponent>::erase(int) noexcept' being compiled
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(174,20): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\World.cpp(350): warning C4715: 'World::getScene': not all control paths return a value
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(111): warning C4715: 'ObjectPool<TransformComponent>::operator[]': not all control paths return a value
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(111): warning C4715: 'ObjectPool<ImageComponent>::operator[]': not all control paths return a value
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(111): warning C4715: 'ObjectPool<DirLightComponent>::operator[]': not all control paths return a value
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(111): warning C4715: 'ObjectPool<PointLightComponent>::operator[]': not all control paths return a value
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(111): warning C4715: 'ObjectPool<RigidBodyComponent<Sphere> >::operator[]': not all control paths return a value
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(111): warning C4715: 'ObjectPool<RigidBodyComponent<Box> >::operator[]': not all control paths return a value
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(111): warning C4715: 'ObjectPool<CharacterComponent>::operator[]': not all control paths return a value
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(111): warning C4715: 'ObjectPool<ModelComponent>::operator[]': not all control paths return a value
+E:\GitRepositories\SelfMadeGameEngine\GameEngine\GameEngine\ObjectPool.h(111): warning C4715: 'ObjectPool<InteractableObjectComponent>::operator[]': not all control paths return a value
+  glad.c
 LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/PROFILE' specification
 AIEngine.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:REF' specification
 LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
-  GameEngine.vcxproj -> E:\C++\Projects\GameEngine\GameEngine\Debug\GameEngine.exe
+  GameEngine.vcxproj -> E:\GitRepositories\SelfMadeGameEngine\GameEngine\Debug\GameEngine.exe
